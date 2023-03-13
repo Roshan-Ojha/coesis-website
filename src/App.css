@@ -1,50 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
 
 .Main {
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   background: #2C0B39;
+  background-image: url(./Assests/image\ 2.png);
 }
 
 .Logo {
-  width: 400px;
-  height: 200px;
-  margin: auto;
-  background: url(./Assests/Logo.png);
+  top: 8vh;
+  position: absolute;
+  left: 36vw;
+}
+
+.Logo img {
+  width: 28vw;
 }
 
 .Text {
-  width: 422px;
-  height: 51px;
+  position: absolute;
   margin: auto;
+  width: 100vw;
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2.4vw;
+  top: 28vh;
   line-height: 51px;
   color: #FFFFFF;
 }
 
 .Commingsoon {
-  width: 836px;
-  height: 176px;
-  margin: auto;
-  background: url(./Assests/comingsoon.png);
+  position: absolute;
+  left: 20vw;
+  top: 28vw;
+}
+
+.Commingsoon img {
+  width: 60vw;
 }
 
 .Rocket {
-  width: 600px;
-  height: 300px;
-  margin: auto;
-  background-image: url(./Assests/Rocket.png);
+  position: absolute;
+  bottom: 7vw;
+  left: 31vw;
+  z-index: 1;
+
+}
+
+.Rocket img {
+  width: 38vw;
+
+}
+
+.Overlay {
+  position: relative;
+  height: 100vh;
+}
+
+.Smoke img {
+  width: 100vw;
+  height: 10vw;
 }
 
 .Smoke {
   position: absolute;
+  bottom: 0px;
+}
+
+
+.OverlayText {
+  position: absolute;
   width: 100vw;
-  height: 187px;
-  left: -2px;
-  top: 840px;
-  background-image: url(./Assests/Vector\ 2.png);
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 38px;
+  bottom: 1.5vw;
+  color: #2C0B39;
 }

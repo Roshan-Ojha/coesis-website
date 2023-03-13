@@ -3,6 +3,7 @@ import Smoke from './Assests/Vector 2.png';
 import Rocket from './Assests/Rocket.png';
 import Coming from './Assests/comingsoon.png';
 import Logo  from './Assests/Logo.png';
+import React from 'react';
 function App() {
   return (
     <div className="Main">
@@ -12,7 +13,7 @@ function App() {
       <div className="Commingsoon"><center><img src={Coming} alt="Comming Soon Logo" /></center></div>
       <div className="Rocket"><center><img src={Rocket} alt="Rocket" /></center></div>
       <div className="Smoke"><img src={Smoke} alt="Smoke" />
-        <div className="OverlayText"><center>Organized by COESIS</center><div></div></div>
+        <div className="OverlayText"><center>Organized by COESIS</center></div>
       </div>
       </div>
     </div>

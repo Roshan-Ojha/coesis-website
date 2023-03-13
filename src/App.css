@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+
+.Main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #2C0B39;
+}
+
+.Logo {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  background: url(./Assests/Logo.png);
+}
+
+.Text {
+  width: 422px;
+  height: 51px;
+  margin: auto;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  color: #FFFFFF;
+}
+
+.Commingsoon {
+  width: 836px;
+  height: 176px;
+  margin: auto;
+  background: url(./Assests/comingsoon.png);
+}
+
+.Rocket {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background-image: url(./Assests/Rocket.png);
+}
+
+.Smoke {
+  position: absolute;
+  width: 100vw;
+  height: 187px;
+  left: -2px;
+  top: 840px;
+  background-image: url(./Assests/Vector\ 2.png);
+}

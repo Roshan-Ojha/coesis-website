@@ -6,16 +6,17 @@
   height: 100vh;
   background: #2C0B39;
   background-image: url(./Assests/image\ 2.png);
+  overflow: hidden;
 }
 
 .Logo {
-  top: 8vh;
+  top: 1vh;
   position: absolute;
-  left: 36vw;
+  width: 100vw;
 }
 
 .Logo img {
-  width: 28vw;
+  width: 35vh;
 }
 
 .Text {
@@ -25,16 +26,16 @@
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 700;
-  font-size: 2.4vw;
-  top: 28vh;
+  font-size: 4vh;
+  top: 16vh;
   line-height: 51px;
-  color: #FFFFFF;
+  color: #EFF0F1;
 }
 
 .Commingsoon {
   position: absolute;
-  left: 20vw;
-  top: 28vw;
+  width: 100vw;
+  top: 30vh;
 }
 
 .Commingsoon img {
@@ -43,14 +44,14 @@
 
 .Rocket {
   position: absolute;
-  bottom: 7vw;
-  left: 31vw;
+  bottom: 3vh;
+  width: 100vw;
   z-index: 1;
 
 }
 
 .Rocket img {
-  width: 38vw;
+  height: 40vh;
 
 }
 
@@ -61,7 +62,7 @@
 
 .Smoke img {
   width: 100vw;
-  height: 10vw;
+  height: 10vh;
 }
 
 .Smoke {
@@ -76,8 +77,182 @@
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 700;
-  font-size: 2vw;
-  line-height: 38px;
-  bottom: 1.5vw;
+  font-size: 24px;
+  line-height: 20px;
+  bottom: 0px;
   color: #2C0B39;
+  background-color: #EFF0F1;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .Logo {
+    top: 8vh;
+    position: absolute;
+    width: 100vw;
+  }
+
+  .Logo img {
+    width: 28vw;
+    
+  }
+
+  .Text {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4vw;
+    top: 16vw;
+    line-height: 51px;
+    color: #EFF0F1;
+  }
+
+  .Commingsoon {
+    position: absolute;
+    width: 100vw;
+    top: 25vw;
+  }
+
+  .Commingsoon img {
+    width: 60vw;
+  }
+
+  .Rocket {
+    position: absolute;
+    bottom: 5vh;
+    width: 100vw;
+    z-index: 1;
+
+  }
+
+  .Rocket img {
+    width: 62vh;
+    height: 33vh;
+
+  }
+
+  .Overlay {
+    position: relative;
+    height: 100vh;
+  }
+
+  .Smoke img {
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .Smoke {
+    position: absolute;
+    bottom: 0px;
+  }
+
+
+  .OverlayText {
+    position: absolute;
+    width: 100vw;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vh;
+    line-height: 38px;
+    bottom: 0vw;
+    color: #2C0B39;
+    background-color: #EFF0F1;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .Logo {
+    top: 15vh;
+    position: absolute;
+    width: 100vw;
+  }
+
+  .Logo img {
+    width: 168px;
+  }
+
+  .Text {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.4px;
+    top: 25vh;
+    line-height: 51px;
+    color: #EFF0F1;
+  }
+
+  .Commingsoon {
+    position: absolute;
+    width: 100vw;
+    top: 40vh;
+  }
+
+  .Commingsoon img {
+    width: 360px;
+  }
+
+  .Rocket {
+    position: absolute;
+    bottom: 10vh;
+    width: 100vw;
+    z-index: 1;
+
+  }
+
+  .Rocket img {
+    width: 50vh;
+    height: 30vh;
+
+  }
+
+  .Overlay {
+    position: relative;
+    height: 100vh;
+  }
+
+  .Smoke img {
+    width: 100vw;
+    height: 100px;
+  }
+
+  .Smoke {
+    position: absolute;
+    bottom: 0px;
+  }
+
+
+  .OverlayText {
+    position: absolute;
+    width: 100vw;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 38px;
+    bottom: 0px;
+    color: #2C0B39;
+    background-color: #EFF0F1;
+  }
+}
+@media screen and (max-width: 375px) {
+
+
+  .Commingsoon {
+    position: absolute;
+    width: 100vw;
+    top: 40vh;
+  }
+
+  .Commingsoon img {
+    width: 40vh;
+  }
+
 }

@@ -7,12 +7,12 @@ function App() {
   return (
     <div className="Main">
       <div className="Overlay">
-      <div className="Logo"><img src={Logo} alt="Coesis Logo" /></div>
+      <div className="Logo"><center><img src={Logo} alt="Coesis Logo" /></center></div>
       <div className="Text"><center>Empower through Innovation</center></div>
-      <div className="Commingsoon"><img src={Coming} alt="Comming Soon Logo" /></div>
-      <div className="Rocket"><img src={Rocket} alt="Rocket" /></div>
+      <div className="Commingsoon"><center><img src={Coming} alt="Comming Soon Logo" /></center></div>
+      <div className="Rocket"><center><img src={Rocket} alt="Rocket" /></center></div>
       <div className="Smoke"><img src={Smoke} alt="Smoke" />
-        <div className="OverlayText"><center>Organized by COESIS</center></div>
+        <div className="OverlayText"><center>Organized by COESIS</center><div></div></div>
       </div>
       </div>
     </div>

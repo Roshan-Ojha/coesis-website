@@ -1,0 +1,72 @@
+.comingMain{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a0a37;
+    height: 100vh;
+}
+
+.upperPart{
+    padding-top: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+ .comingSoon{
+    padding-top: 35px;
+    padding-bottom: 25px;
+ }
+ .empower{
+    color: white;
+    font-size: 20px;
+ }
+.lowerPart{
+    /* position: relative; */
+    width: 100%;
+    height: 158px;
+    /* bottom: 0px; */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+/* text {
+    z-index: 999;
+    fill: black;
+    font-size: 24px;
+    font-family: sans-serif;
+  } */
+  .svgPath{
+    /* background-color: aqua; */
+  }
+
+  .organizer{
+    /* z-index: 999; */
+    fill: #2c0b39;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .svg{
+  
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  .rocketimg{
+    position: relative;
+    top: 55px;
+
+  }
+  .rocketimg img{
+    /* width: 850px;
+    height: 400px; */
+  }
